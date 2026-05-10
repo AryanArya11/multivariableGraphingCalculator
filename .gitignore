@@ -1,0 +1,30 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python packaging / wheels
+*.egg-info/
+*.egg
+build/
+
+node_modules/
+dist/
+*.log
+
+# Local env & secrets (track `.env.example` if you add templates)
+.env
+.env.local
+.env.*.local
+
+# Tests / coverage
+coverage/
+.coverage
+htmlcov/
+
+.DS_Store
+Thumbs.db
