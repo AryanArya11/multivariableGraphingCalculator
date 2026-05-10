@@ -2,6 +2,10 @@
 
 Monorepo with a **FastAPI** backend that evaluates \(z = f(x, y)\) from a text expression (SymPy + NumPy) and a **Vite + React + TypeScript** frontend that plots surfaces with Plotly. The browser never evaluates user math; only the backend does.
 
+## Documentation
+
+- **[Architecture diagrams](docs/architecture.md)** — Mermaid diagrams for system context, frontend/backend structure, and request flow.
+
 ## Repository layout
 
 ```text
@@ -28,6 +32,8 @@ multivariableGraphingCalculator/
 │       ├── App.css
 │       ├── index.css
 │       └── vite-env.d.ts       # Types for import.meta.env (e.g. VITE_API_BASE)
+├── docs/
+│   └── architecture.md          # Mermaid architecture diagrams
 ├── .gitignore
 └── README.md
 ```
